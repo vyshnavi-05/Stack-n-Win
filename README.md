@@ -1,2 +1,2 @@
 # Stack-n-Win
-🎮 A modern twist on the classic Connect Four game! "Stack 'n' Win" lets you play in 2-Player or Player vs Computer mode with a stylish UI, animations, and medium-level AI logic. Built using HTML, CSS, and JavaScript.
+🎮 Stack ‘n’ Win is a dynamic web-based strategy game built using HTML, CSS, and JavaScript. This interactive two-mode game lets you challenge a friend or compete against an AI with medium difficulty. Designed with engaging visuals, turn indicators, animations, and a polished user interface, it offers an enjoyable experience for all ages. Whether you're refining your logic or just having fun, Stack ‘n’ Win delivers both excitement and strategy in every move.
