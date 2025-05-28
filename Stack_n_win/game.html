@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stack 'n' Win</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro-section">
+  <h1 class="game-title">🎯 Stack 'n' Win</h1>
+  <p class="game-instructions">
+    Drop your discs into the columns.<br>
+    First to stack 4 in a row—horizontally, vertically, or diagonally—wins!<br>
+    Choose between <strong>2 Player</strong> or <strong>Player vs Computer</strong> mode.
+  </p>
+</div>
+
+ 
+
+  <div style="text-align: center; margin: 20px; font-size: 20px; font-weight: bold;">
+    Choose Mode:
+    <label style="margin-left: 20px;">
+      <input type="radio" name="mode" value="2player" checked /> 2 Player
+    </label>
+    <label style="margin-left: 20px;">
+      <input type="radio" name="mode" value="pvc" /> Player vs Computer
+    </label>
+  </div>
+ 
+  <div style="text-align: center; margin: 20px; font-size: 22px; font-weight: bold;">
+    Current Turn: <span id="current-player" style="font-size: 24px;">None</span>
+  </div>
+
+  <div class="board" id="board"></div>
+
+  <div style="text-align: center; margin: 20px;">
+    <button id="start-btn" style="font-size: 18px; padding: 10px 20px;">Start Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
